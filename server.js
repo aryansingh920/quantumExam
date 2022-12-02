@@ -379,7 +379,7 @@ res.send(msg)
 })
 
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 app.listen(port, async (req, res) => {
     console.log("server is running on port http://localhost:" + port);
 });
